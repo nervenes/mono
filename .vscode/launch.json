@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mono}",
+            "name": "Debug Mono",
+            "program": "${workspaceFolder:Mono}/.build/debug/Mono",
+            "preLaunchTask": "swift: Build Debug Mono"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Mono}",
+            "name": "Release Mono",
+            "program": "${workspaceFolder:Mono}/.build/release/Mono",
+            "preLaunchTask": "swift: Build Release Mono"
+        }
+    ]
+}
