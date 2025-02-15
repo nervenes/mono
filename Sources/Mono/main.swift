@@ -1,1 +1,1 @@
-import Utils
+print("Hello, world!")
